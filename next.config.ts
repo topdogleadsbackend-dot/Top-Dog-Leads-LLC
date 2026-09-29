@@ -46,7 +46,8 @@ const nextConfig: NextConfig = {
       { source: "/home-06", destination: "/", permanent: true },
       { source: "/ppc-services", destination: "/services/inbound-call-marketing", permanent: true },
       { source: "/smm-services", destination: "/services/inbound-call-marketing", permanent: true },
-
+{ source: "/our-team", destination: "/about", permanent: true },
+      { source: "/our-case-studies", destination: "/industry", permanent: true },
       // ── WordPress "home" theme demo variants ─────────────────────
       // ADDED: previously only /home-10 was redirected; the others
       // were blocked in robots.txt with no redirect, so they just 404'd.
